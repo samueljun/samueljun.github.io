@@ -1,0 +1,73 @@
+/* body */
+body, p, h1, h2, h3, li {
+	margin: 0;
+}
+
+p, h1, h2, h3, ul {
+	font-family: "Times New Roman", Verdana, Arial;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+/* top */
+.top_wrapper {
+	height: 110px;
+	background-color: GhostWhite;
+	border-bottom: solid 1px LightGrey;
+}
+.header {
+	margin: auto;
+	width: 800px;
+}
+.title {
+	float: right;
+	width: 600px;
+}
+/* bottom */
+.wrapper {
+	margin: auto;
+	padding-top: 20px;
+	width: 800px;
+}
+.nav
+{
+	float: left;
+	width: 150px;
+	opacity: .5;
+	text-align: right;
+}
+.content {
+	float: right;
+	width: 600px;
+}
+
+/* text */
+p {
+	font-family: Verdana, Arial;
+	line-height: 150%;
+	margin-bottom: 20px;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+ul {
+	font-family: Verdana, Arial;
+	list-style-type: square;
+}
+
+/* links */
+a:visited {
+	color: Blue;
+}
+a:hover {
+	color: PowderBlue;
+}

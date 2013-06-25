@@ -11,13 +11,14 @@ p, h1, h2, h3, ul {
 
 /* top */
 .top_wrapper {
-	height: 110px;
+	min-height: 110px;
 	background-color: GhostWhite;
 	border-bottom: solid 1px LightGrey;
 }
 .header {
 	margin: auto;
-	width: 800px;
+	padding: 20px;
+	width: 760px;
 }
 .title {
 	float: right;
@@ -26,13 +27,13 @@ p, h1, h2, h3, ul {
 /* bottom */
 .wrapper {
 	margin: auto;
-	padding-top: 20px;
-	width: 800px;
+	padding: 20px;
+	width: 760px;
 }
 .nav
 {
 	float: left;
-	width: 150px;
+	width: 120px;
 	opacity: .5;
 	text-align: right;
 }
@@ -49,6 +50,7 @@ p {
 }
 h1 {
 	font-size: 32px;
+	margin-bottom: 10px;
 }
 h2 {
 	font-size: 22px;
@@ -58,6 +60,7 @@ h3 {
 	font-family: Verdana, Arial;
 	font-size: 12px;
 	margin-bottom: 10px;
+	font-style: italic;
 }
 ul {
 	font-family: Verdana, Arial;

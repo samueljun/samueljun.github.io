@@ -8,5 +8,5 @@
 					</p>
 					<h2>Resume</h2>
 					<p>
-						Check out my <a href="resources/web_resume.pdf">resume</a>. <i>Last updated 5/5/13.</i>
+						Check out my <a href="resources/web_resume.pdf">resume</a>. <i>Last updated 7/1/13.</i>
 					</p>

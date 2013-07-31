@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Samuel Jun</title>
+
+		<link rel="icon" type="image/bmp" href="resources/img/favicon.bmp">
+		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
+
+		<script src="resources/js/jquery-2.0.3.min.js"></script>
+		<script src="resources/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="navbar navbar-static-top navbar-inverse">
+			<a class="navbar-brand" href="#home">Samuel Jun</a>
+			<ul class="nav navbar-nav" id="navbar">
+				<li class="active"><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#courses">Courses</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="container well">
+			<div class="tab-content">
+				<div class="tab-pane active" id="home">
+					<h3>About Me</h3>
+					<p>
+						My name is Samuel Jun. I'm 21 years old and live in Los Angeles. I am currently a student at UCLA majoring in Computer Science. I am experienced with: C, C++, Python, Java, HTML, PHP, JavaScript, XML, SQL, Apache, and Git.
+					</p>
+					<h3>Interests</h3>
+					<p>
+						I love to explore new restaurants and discover new music. To see my recent music finds, go to my youtube channel and check out my <a href="https://www.youtube.com/user/bountyxneo">favorites</a>, or go to my soundcloud and listen to my <a href="https://soundcloud.com/samueljun/likes">likes</a>.
+					</p>
+					<h3>Resume</h3>
+					<p>
+						Check out my <a href="resources/web_resume.pdf">resume</a>. <i>Last updated 7/1/13.</i>
+					</p>
+				</div>
+				<div class="tab-pane" id="projects">
+					<h3><a href="http://www.knowplace.cc">KnowPlace</a></h3>
+					<h4>There's KnowPlace like home...</h4>
+					<p>
+						KnowPlace is a web application primarily aimed at do-it-yourself (DIY) enthusiats who want to do home automation. KnowPlace provides a web service where DIY enthusiasts who want to do home automation can easily use the included libraries to connect to the website to do home automation. The user will use the KnowPlace libraries to connect the the KnowPlace server and the user will be able to interact with his/her device using the website. The site will feature automated events, manual view and control, and a future mobile application.
+					</p>
+					<p>
+						The project is still early in development but full control of light switches and variable fan speed is implemented. The website employs Apache Tomcat for servlets and JSP, Maven, PostgreSQL, jQuery, AJAX.
+					</p>
+				</div>
+				<div class="tab-pane" id="courses">
+					<h3>Undergraduate Courses at UCLA</h3>
+					<h4>Third Year</h4>
+					<ul class="list-group">
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187500200&term=13S"><li class="list-group-item">
+							Software Engineering
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187780201&term=13W"><li class="list-group-item">
+							Introduction to Algorithms and Complexity
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187564200&term=12F"><li class="list-group-item">
+							Web Applications
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187510200&term=12F"><li class="list-group-item">
+							Programming Languages
+						</li></a>
+					</ul>
+					<h4>Second Year</h4>
+					<ul class="list-group">
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187590200&term=12S"><li class="list-group-item">
+							Database Systems
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187696200&term=12S"><li class="list-group-item">
+							Artificial Intelligence
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187105201&term=12W"><li class="list-group-item">
+							Software Construction Lab
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=190048210&term=11F"><li class="list-group-item">
+							Logic Design of Digital Systems
+						</li></a>
+					</ul>
+					<h4>First Year</h4>
+					<ul class="list-group">
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187101200&term=11S"><li class="list-group-item">
+							Introduction to Computer Organization
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187096210&term=11W"><li class="list-group-item">
+							Introduction to Computer Science II
+						</li></a>
+						<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187093200&term=10F"><li class="list-group-item">
+							Introduction to Computer Science I
+						</li></a>
+					</ul>
+				</div>
+				<div class="tab-pane" id="contact">
+					<h3>Contact</h3>
+					<p>
+						Send me an <a href="mailto:samuel.h.jun@gmail.com">email</a><br>
+						Check out my <a href="https://github.com/samueljun">GitHub</a><br>
+						Friend me on <a href="http://www.facebook.com/jun.samuel">Facebook</a><br>
+						Connect to me on <a href="http://www.linkedin.com/in/samueljun">LinkedIn</a><br>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$('.navbar a').click(function (e) {
+			  e.preventDefault();
+			  $(this).tab('show');
+			})
+		</script>
+	</body>
+
+</html>

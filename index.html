@@ -12,7 +12,7 @@
 
 		<script src="resources/js/jquery-2.0.3.min.js"></script>
 		<script src="resources/js/bootstrap.min.js"></script>
-		<script src="resources/js/interface.js"></script>
+		<script src="resources/js/main.js"></script>
 	</head>
 	<body>
 		<!-- Fixed navbar -->
@@ -30,7 +30,6 @@
 					<ul class="nav navbar-nav" id="navbar">
 						<li class="active"><a href="/">Home</a></li>
 						<li><a href="#projects">Projects</a></li>
-						<li><a href="#courses">Courses</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -40,85 +39,26 @@
 		<div class="container well">
 			<div class="tab-content">
 				<div class="tab-pane active" id="home">
-					<img src="resources/img/sam.jpg" alt="Samuel Jun" style="width: 200px; float: right; margin: 0 15px 0 15px" class="img-thumbnail">
+					<img src="resources/img/sam.jpg" alt="Image of Samuel Jun" style="width: 200px; float: right; margin: 0 15px 0 15px" class="img-thumbnail">
 					<h3>About Me</h3>
-					<p>My name is Samuel Jun. I'm <span id="age"></span> years old and I am currently living in Santa Barbara. I majored in Computer Science at UCLA. I am experienced with: C++, Python, C#, Java, HTML, PHP, JavaScript, XML, SQL, Apache, Git, and Docker.
+					<p>My name is Samuel Jun. I'm <span id="age"></span> years old and I am currently living in San Francisco. I'm currently a front end engineer with experience throughout the stack.
 					</p>
 					<h3>Interests</h3>
-					<p>I love exploring new restaurants and discovering new music. To see my recent music finds, go to my youtube channel and check out my <a href="https://www.youtube.com/playlist?list=PLDXSwplMwhtrUXCjrvBaKR3q7m1QFO-cD">favorites</a>, or go to my soundcloud and listen to my <a href="https://soundcloud.com/samueljun/likes">likes</a>. I also enjoy hiking and throwing mugs in pottery.
+					<p>I love exploring new restaurants and discovering new music. To see my recent music finds, go to my youtube channel and check out my <a href="https://www.youtube.com/playlist?list=PLDXSwplMwhtrUXCjrvBaKR3q7m1QFO-cD">favorites</a>. I also enjoy hiking, backpacking, and throwing mugs in pottery.
 					</p>
 					<h3>Resume</h3>
 					<p>Check out my <a href="resources/web_resume.pdf">resume</a>. <i>Last updated 10/06/15.</i></p>
 				</div>
 				<div class="tab-pane" id="projects">
-					<h3>Pomodoro Clock <sup><a href="https://github.com/samueljun/Pomodoro-Clock">[GitHub]</a></sup></h3>
-					<h5>A simple browser extension for Pomodoro Technique users</h5>
+					<h3><a href="https://github.com/samueljun/pomodoro-clock">Pomodoro Clock</a></h3>
+					<h4>A simple browser extension for Pomodoro Technique users</h4>
 					<p>Pomodoro Clock is a simple browser extension for Pomodoro Technique users. The add-on uses the default browser notification system to let you know when the timer is over. The add-on also features stats for tracking how many pomodoros you complete. The stats are synced to your account.</p>
-					<p>I developed a cross-browser code base so that I would not have to replicate code across Firefox and Chrome.</p>
-					<h3>KnowPlace <sup><a href="https://github.com/samueljun/limitless-headland-1164">[GitHub]</a></sup></h3>
-					<h5>There's KnowPlace like home...</h5>
+					<p>This project features a cross-browser code base to minimize code replication across the Firefox and Chrome extensions.</p>
+					<h3><a href="https://github.com/samueljun/knowplace">KnowPlace</a></h3>
+					<h4>There's KnowPlace like home...</h4>
 					<p>KnowPlace is a web application primarily aimed at do-it-yourself (DIY) enthusiats who want to do home automation. KnowPlace provides a web service where DIY enthusiasts who want to do home automation can easily use the included libraries to connect to the website to do home automation. The user will use the KnowPlace libraries to connect the the KnowPlace server and the user will be able to interact with his/her device using the website. The site will feature automated events, manual view and control, and a future mobile application.</p>
-					<p>The project is still early in development but full control of light switches and variable fan speed is implemented. The website employs Apache Tomcat for servlets and JSP, Maven, PostgreSQL, jQuery, AJAX.</p>
-					<h3>Netbook Web Server</h3>
-					<p>As a personal project, I converted my netbook into a web server. My motivation for the project was to apply my web developer skills and networking knowledge for something fun and useful for both me and my roommates. Currently the netbook is setup with a LAMP stack using Ubuntu Server 12.04 LTS. Along with the web server is a <a href="mumble.sourceforge.net">Mumble</a> server for a dedicated VOIP solution when gaming with my friends. The most recent addition to the server is a <a href="http://www.plexapp.com/">Plex</a> Media Server for a dedicated DLNA media solution. The main motivation for the Plex Media Server was to have the ability to stream music and movies instead of having to use of storage space and sync libraries. The Plex Media Server also makes it convenient to stream music straight to the living room PS3. Later down the line, I hope to set up a more powerful media PC with a NAS.</p>
+					<p>This project is inactive but full control of light switches and variable fan speed was implemented. The website employs Apache Tomcat for servlets and JSP, Maven, PostgreSQL, jQuery, AJAX.</p>
 					<h3>Check out my <a href="https://github.com/samueljun">GitHub</a> for other projects</h3>
-				</div>
-				<div class="tab-pane" id="courses">
-					<h3>Computer Science Undergraduate Courses at UCLA</h3>
-					<h4>Fourth Year</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187336200&term=13F">Operating Systems Principles</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187720200&term=13F">Introduction to Computer Graphics</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187686204&term=13F">Introductory Digital Design Lab</a>
-						</li>
-					</ul>
-					<h4>Third Year</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187500200&term=13S">Software Engineering</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187780201&term=13W">Introduction to Algorithms and Complexity</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187564200&term=12F">Web Applications</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187510200&term=12F">Programming Languages</a>
-						</li>
-					</ul>
-					<h4>Second Year</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187590200&term=12S">Database Systems</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187696200&term=12S">Artificial Intelligence</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187105201&term=12W">Software Construction Lab</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=190048210&term=11F">Logic Design of Digital Systems</a>
-						</li>
-					</ul>
-					<h4>First Year</h4>
-					<ul class="list-group">
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187101200&term=11S">Introduction to Computer Organization</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187096210&term=11W">Introduction to Computer Science II</a>
-						</li>
-						<li class="list-group-item">
-							<a href="http://www.registrar.ucla.edu/schedule/subdet.aspx?srs=187093200&term=10F">Introduction to Computer Science I</a>
-						</li>
-					</ul>
 				</div>
 				<div class="tab-pane" id="contact">
 					<h3>Contact</h3>
@@ -127,7 +67,6 @@
 						Check out my <a href="https://github.com/samueljun">GitHub</a><br>
 						Friend me on <a href="http://www.facebook.com/samuelhjun">Facebook</a><br>
 						Connect to me on <a href="http://www.linkedin.com/in/samueljun">LinkedIn</a><br>
-						<!-- Add me to your circle on <a href-"https://plus.google.com/u/0/116457090519386495500">Google Plus</a><br>-->
 					</p>
 				</div>
 			</div>

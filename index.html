@@ -1,75 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<title>Samuel Jun</title>
+    <title>Samuel Jun</title>
 
-		<link rel="icon" type="image/bmp" href="resources/img/favicon.bmp">
-		<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="resources/css/samueljun.css">
+    <link rel="icon" type="image/bmp" href="resources/img/favicon.bmp" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="resources/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="resources/css/samueljun.css" />
 
-		<script src="resources/js/jquery-2.0.3.min.js"></script>
-		<script src="resources/js/bootstrap.min.js"></script>
-		<script src="resources/js/main.js"></script>
-	</head>
-	<body>
-		<!-- Fixed navbar -->
-		<div class="navbar navbar-default navbar-static-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="/">Samuel Jun</a>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav" id="navbar">
-						<li class="active"><a href="/">Home</a></li>
-						<li><a href="#projects">Projects</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+    <script src="resources/js/jquery-2.0.3.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/main.js"></script>
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Samuel Jun</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" id="navbar">
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-		<div class="container well">
-			<div class="tab-content">
-				<div class="tab-pane active" id="home">
-					<img src="resources/img/sam.jpg" alt="Image of Samuel Jun" style="width: 200px; float: right; margin: 0 15px 0 15px" class="img-thumbnail">
-					<h3>About Me</h3>
-					<p>My name is Samuel Jun. I'm <span id="age"></span> years old and I am currently living in San Francisco. I'm currently a front end engineer with experience throughout the stack.
-					</p>
-					<h3>Interests</h3>
-					<p>I love exploring new restaurants and discovering new music. To see my recent music finds, go to my youtube channel and check out my <a href="https://www.youtube.com/playlist?list=PLDXSwplMwhtrUXCjrvBaKR3q7m1QFO-cD">favorites</a>. I also enjoy hiking, backpacking, and throwing mugs in pottery.
-					</p>
-					<h3>Resume</h3>
-					<p>Check out my <a href="resources/web_resume.pdf">resume</a>. <i>Last updated 10/06/15.</i></p>
-				</div>
-				<div class="tab-pane" id="projects">
-					<h3><a href="https://github.com/samueljun/pomodoro-clock">Pomodoro Clock</a></h3>
-					<h4>A simple browser extension for Pomodoro Technique users</h4>
-					<p>Pomodoro Clock is a simple browser extension for Pomodoro Technique users. The add-on uses the default browser notification system to let you know when the timer is over. The add-on also features stats for tracking how many pomodoros you complete. The stats are synced to your account.</p>
-					<p>This project features a cross-browser code base to minimize code replication across the Firefox and Chrome extensions.</p>
-					<h3><a href="https://github.com/samueljun/knowplace">KnowPlace</a></h3>
-					<h4>There's KnowPlace like home...</h4>
-					<p>KnowPlace is a web application primarily aimed at do-it-yourself (DIY) enthusiats who want to do home automation. KnowPlace provides a web service where DIY enthusiasts who want to do home automation can easily use the included libraries to connect to the website to do home automation. The user will use the KnowPlace libraries to connect the the KnowPlace server and the user will be able to interact with his/her device using the website. The site will feature automated events, manual view and control, and a future mobile application.</p>
-					<p>This project is inactive but full control of light switches and variable fan speed was implemented. The website employs Apache Tomcat for servlets and JSP, Maven, PostgreSQL, jQuery, AJAX.</p>
-					<h3>Check out my <a href="https://github.com/samueljun">GitHub</a> for other projects</h3>
-				</div>
-				<div class="tab-pane" id="contact">
-					<h3>Contact</h3>
-					<p>
-						Send me an <a href="mailto:mrsamueljun@gmail.com">email</a><br>
-						Check out my <a href="https://github.com/samueljun">GitHub</a><br>
-						Friend me on <a href="http://www.facebook.com/samuelhjun">Facebook</a><br>
-						Connect to me on <a href="http://www.linkedin.com/in/samueljun">LinkedIn</a><br>
-					</p>
-				</div>
-			</div>
-		</div>
-	</body>
+    <div class="container well">
+      <div class="tab-content">
+        <div class="tab-pane active" id="home">
+          <img
+            src="resources/img/sam.jpg"
+            alt="Image of Samuel Jun"
+            style="width: 200px; float: right; margin: 0 15px 0 15px"
+            class="img-thumbnail"
+          />
+          <h3>About Me</h3>
+          <p>
+            My name is Samuel Jun. I am currently living in Los Angeles and I'm
+            a front end engineer with experience throughout the stack.
+          </p>
+          <h3>Interests</h3>
+          <p>
+            I love exploring new restaurants and discovering new music. To see
+            my recent music finds, go to my youtube channel and check out my
+            <a
+              href="https://www.youtube.com/playlist?list=PLDXSwplMwhtrUXCjrvBaKR3q7m1QFO-cD"
+            >
+              favorites </a
+            >. I also enjoy hiking, backpacking, and throwing mugs in pottery.
+          </p>
+          <h3>Resume</h3>
+          <p>
+            Check out my <a href="resources/web_resume.pdf">resume</a>.
+            <i>Last updated 10/06/15.</i>
+          </p>
+        </div>
+        <div class="tab-pane" id="projects">
+          <h3>
+            <a href="https://github.com/samueljun/pomodoro-clock">
+              Tomato Clock
+            </a>
+          </h3>
+          <h4>A simple browser extension for managing your productivity.</h4>
+          <p>
+            Tomato Clock is a simple browser extension for managing your
+            productivity. Use the extension to break down your work into 25
+            minute 'Tomato' intervals separated by short breaks. Use the long
+            break after completing four Tomato intervals.
+          </p>
+          <p>
+            This project features a cross-browser code base to minimize code
+            replication across the Firefox and Chrome extensions.
+          </p>
+          <h3>
+            <a href="https://github.com/samueljun/knowplace">KnowPlace</a>
+          </h3>
+          <h4>There's KnowPlace like home...</h4>
+          <p>
+            KnowPlace is a web application primarily aimed at do-it-yourself
+            (DIY) enthusiats who want to do home automation. KnowPlace provides
+            a web service where DIY enthusiasts who want to do home automation
+            can easily use the included libraries to connect to the website to
+            do home automation. The user will use the KnowPlace libraries to
+            connect the the KnowPlace server and the user will be able to
+            interact with his/her device using the website. The site will
+            feature automated events, manual view and control, and a future
+            mobile application.
+          </p>
+          <p>
+            This project is inactive but full control of light switches and
+            variable fan speed was implemented. The website employs Apache
+            Tomcat for servlets and JSP, Maven, PostgreSQL, jQuery, AJAX.
+          </p>
+          <h3>
+            Check out my <a href="https://github.com/samueljun">GitHub</a> for
+            other projects
+          </h3>
+        </div>
+        <div class="tab-pane" id="contact">
+          <h3>Contact</h3>
+          <p>
+            Send me an <a href="mailto:mrsamueljun@gmail.com">email</a><br />
+            Check out my <a href="https://github.com/samueljun">GitHub</a><br />
+            Friend me on
+            <a href="https://www.facebook.com/mrsamueljun">Facebook</a><br />
+            Connect to me on
+            <a href="https://www.linkedin.com/in/samueljun">LinkedIn</a><br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

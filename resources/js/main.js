@@ -5,14 +5,6 @@ function loadTab() {
   }
 }
 
-// http://stackoverflow.com/questions/4060004/calculate-age-in-javascript
-function _calculateAge(birthday) {
-  // birthday is a date
-  var ageDifMs = Date.now() - birthday.getTime();
-  var ageDate = new Date(ageDifMs); // miliseconds from epoch
-  return Math.abs(ageDate.getUTCFullYear() - 1970);
-}
-
 $(document).ready(function() {
   loadTab();
   $(window).on("hashchange", loadTab);
